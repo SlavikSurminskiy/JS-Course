@@ -27,7 +27,7 @@ console.log(str2);
 
 function selectWord(string, wordToSelect) {
 
-	var selectedWord = wordToSelect;
+ var selectedWord = wordToSelect;
  var lengthSelectedWord = selectedWord.length;
  var IndexSelectedWord = string.indexOf(selectedWord);
  var result;
@@ -71,7 +71,7 @@ var sum = 0;
 var arr = [20, 33, 1, "Человек", 2, 3];
 for(i = 0; i < 6; i++) {
 	if(!isNaN(arr[i])) {
-  sum = sum + Math.pow(arr[i],3);
+          sum = sum + Math.pow(arr[i],3);
 	}
 }
 alert(Math.sqrt(sum)); 
